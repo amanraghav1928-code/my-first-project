@@ -6,9 +6,9 @@ metadata:
   tags:
     - nodejs
     - backend
-  annotations:
-    "github.com/project-slug: amanraghav1928-code/my-first-project"
-     "backstage.io/techdocs-ref: dir:."
+annotations:
+  github.com/project-slug: "amanraghav1928-code/my-first-project"
+  backstage.io/techdocs-ref: "dir:."
 spec:
   type: service
   owner: user:guest
