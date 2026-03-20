@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: my-first-project
+  annotations:
+    github.com/project-slug: amanraghav1928-code/my-first-project
 spec:
   type: service
   owner: user:guest
