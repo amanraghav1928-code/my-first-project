@@ -1,10 +1,10 @@
-# 🚀 My First Project
+# My First Project 🚀
 
-This is my Backstage integrated project.
+Welcome to my Backstage TechDocs!
+
+## About
+This is my first Backstage integrated project.
 
 ## Features
-- Node.js backend
-- Backstage catalog integration
-
-## Author
-Aman 🚀
+- Catalog integration
+- TechDocs enabled
