@@ -4,9 +4,9 @@ kind: Component
 metadata:
   name: my-first-project
   description: My first Backstage integrated project 🚀
-  annotations:
-    github.com/project-slug: "amanraghav1928-code/my-first-project"
-    backstage.io/techdocs-ref: "dir:."
+  tags:
+    - nodejs
+    - backend
 
 spec:
   type: service
