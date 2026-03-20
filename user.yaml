@@ -1,8 +1,7 @@
 apiVersion: backstage.io/v1alpha1
-kind: Group
+kind: User
 metadata:
   name: guest
 spec:
-  type: team
   profile:
-    displayName: Guest Team
+    displayName: Guest User
