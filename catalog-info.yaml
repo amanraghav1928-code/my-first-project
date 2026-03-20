@@ -8,6 +8,9 @@ metadata:
     - nodejs
     - backend
 
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+
 spec:
   type: service
   owner: user:guest
