@@ -13,5 +13,5 @@ metadata:
 
 spec:
   type: service
-  owner: user:default/guest
+  owner: guest
   lifecycle: experimental
