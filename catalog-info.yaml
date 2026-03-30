@@ -1,24 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: my-first-project
-  description: AI-powered CCTV monitoring backend 🚀
-  annotations:
-    github.com/project-slug: amanraghav1928-code/my-first-project
-    backstage.io/techdocs-ref: dir:.
-  tags:
-    - nodejs
-    - ai
-    - cctv
-    - backend
-
+  name: my-first-project-location
 spec:
-  type: service
-  owner: user:guest
-  lifecycle: experimental
-
-  providesApis:
-    - cctv-api
-
-  dependsOn:
-    - resource:default/cctv-database
+  targets:
+    - ./catalog-info.yaml
+    - ./api.yaml
+    - ./resources.yaml
