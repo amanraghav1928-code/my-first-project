@@ -13,12 +13,10 @@ metadata:
     - backend
 
 spec:
-  type: service
-  owner: user:guest
-  lifecycle: experimental
-
-  providesApis:
-    - cctv-api
-
-  dependsOn:
-    - resource:default/cctv-database
+type: service
+owner: user:guest
+lifecycle: experimental
+providesApis:
+- cctv-api
+dependsOn:
+- resource:default/cctv-database
