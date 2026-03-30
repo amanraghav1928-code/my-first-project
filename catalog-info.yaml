@@ -7,3 +7,4 @@ spec:
     - ./catalog-info.yaml
     - ./api.yaml
     - ./resources.yaml
+    - ./user.yaml
