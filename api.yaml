@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cctv-api
+  description: API for CCTV monitoring system
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: user:guest
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: CCTV API
+      version: 1.0.0
+    paths:
+      /detect:
+        post:
+          summary: Detect objects in CCTV feed
+          responses:
+            '200':
+              description: Detection successful
