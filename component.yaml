@@ -17,6 +17,6 @@ type: service
 owner: user:guest
 lifecycle: experimental
 providesApis:
-- cctv-api
+- api:default/cctv-api
 dependsOn:
 - resource:default/cctv-database
